@@ -10,7 +10,7 @@ packer.startup({
 		-- nord
 		use("shaunsingh/nord.nvim")
 		-- github copilot
-		use("github/copilot.vim")
+		--use("github/copilot.vim")
 		-- gruvbox
 		use({ "ellisonleao/gruvbox.nvim", requires = { "rktjmp/lush.nvim" } })
 		-- nvim-tree (新增)
@@ -22,6 +22,8 @@ packer.startup({
 		use({ "nvim-telescope/telescope.nvim", requires = { "nvim-lua/plenary.nvim" } })
 		-- treesitter （新增）
 		use({ "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" })
+    -- copilot
+    use("github/copilot.vim")
 		-- dashboard-nvim (新增)
 		use({
 			"glepnir/dashboard-nvim",
